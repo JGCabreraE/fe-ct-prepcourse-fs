@@ -29,6 +29,10 @@ function asAmirror(frase) {
    // La diferencia es que cada palabra estará escrita al inverso.
    // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
    // Tu código:
+   var strin=frase;
+var strinA=strin.split("").reverse().join("");
+strinA=strinA.split(" ").reverse().join(" ");
+return strinA;
 }
 
 function capicua(numero) {
